@@ -45,7 +45,7 @@ class Game {
             } else if (computerNum > 90 && computerNum <= 100) {
                 System.out.print("Your Number is obviously low, Enter Again : ");
             } else {
-	System.out.print("You Enter a Number out of range, Enter b/w 0-100 : ");
+		System.out.print("You Enter a Number out of range, Enter b/w 0-100 : ");
             }
         }while (UserNum != computerNum);
     }
